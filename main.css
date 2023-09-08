@@ -1,0 +1,30 @@
+@font-face {
+  font-family: "main";
+  src: url("fonts/Inter-Medium.ttf");
+}
+body {
+  text-align: center;
+}
+
+p {
+  font-family: main, sans-serif;
+  font-size: 5rem;
+}
+
+.flip {
+  display: inline-block;
+  transform: scaleX(-1);
+}
+
+img {
+  width: 100%;
+}
+
+.background-image {
+  background-image: url("./burger2.jpeg");
+  height: 200px;
+  width: 300px;
+  background-position: center;
+  background-size: cover;
+  display: block;
+}
